@@ -1,0 +1,4155 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="untitled-ontology-5" IRI="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#"/>
+    <Declaration>
+        <DataProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42805"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42449"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42603"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42413"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spurs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42522"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timberwolves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42290"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42251"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42235"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWinnerOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42219"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42424"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raptors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42382"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42262"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#76ers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celtics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42189"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GamePlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grizzlies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PointsGroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FGPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Turnovers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42867"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42499"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pelicans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42070"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warriors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#75b54e640455f0c7fe1c6bee3d075154"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rockets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clippers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#35da0b31933f4d4f7422a1ebdabb6250"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42733"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hornets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42341"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thunder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42159"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42313"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42119"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42825"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#37d4759487e2445ab4ae678a81ad3167"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8084d5139d499b93217a79a4c8c507e5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42687"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42784"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TeamID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42582"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playedAs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42174"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pacers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rebounds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42324"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pistons"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#opponentOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42618"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lakers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42848"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42715"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42876"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FoulsDrawn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42743"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42888"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42662"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42484"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42650"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Points"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hawks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jazz"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FoulsComitted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrailBlazers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42917"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42508"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42439"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42536"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Knicks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42766"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42087"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mavericks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42099"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wizards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42277"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42628"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42903"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42466"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42684"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42563"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLoserOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42360"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Assists"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bucks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42127"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42818"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Bucks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Bulls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Celtics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Clippers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Grizzlies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Heat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Hornets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Knicks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Lakers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Mavericks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Nets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Pelicans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Pistons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Raptors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Rockets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Spurs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#TrailBlazers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Warriors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#Wizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#35da0b31933f4d4f7422a1ebdabb6250"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#37d4759487e2445ab4ae678a81ad3167"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42070"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42087"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42099"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42119"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42146"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42159"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42174"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42189"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42219"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42235"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42251"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42277"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42290"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42313"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42324"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42341"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42360"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42367"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42382"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42398"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42424"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42439"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42449"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42466"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42484"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42499"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42508"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42522"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42536"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42563"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42582"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42603"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42618"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42628"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42662"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42684"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42687"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42715"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42733"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42743"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42766"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42784"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42805"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42818"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42825"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42848"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42867"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42876"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42888"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42903"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#42917"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#75b54e640455f0c7fe1c6bee3d075154"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team"/>
+        <NamedIndividual IRI="#76ers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#8084d5139d499b93217a79a4c8c507e5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamePlayer"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Bucks"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Bulls"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Celtics"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Clippers"/>
+        <NamedIndividual IRI="#35da0b31933f4d4f7422a1ebdabb6250"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Grizzlies"/>
+        <NamedIndividual IRI="#75b54e640455f0c7fe1c6bee3d075154"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Hawks"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Heat"/>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Hornets"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Jazz"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Kings"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Knicks"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Lakers"/>
+        <NamedIndividual IRI="#8084d5139d499b93217a79a4c8c507e5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Magic"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Mavericks"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Nets"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Pacers"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Pelicans"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Pistons"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Raptors"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Rockets"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Spurs"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Thunder"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#TrailBlazers"/>
+        <NamedIndividual IRI="#37d4759487e2445ab4ae678a81ad3167"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Warriors"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#Wizards"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <NamedIndividual IRI="#42070"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <NamedIndividual IRI="#42628"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <NamedIndividual IRI="#42903"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <NamedIndividual IRI="#Celtics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <NamedIndividual IRI="#42174"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <NamedIndividual IRI="#42784"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <NamedIndividual IRI="#42439"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <NamedIndividual IRI="#42687"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <NamedIndividual IRI="#42251"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <NamedIndividual IRI="#Mavericks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <NamedIndividual IRI="#42205"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <NamedIndividual IRI="#42466"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <NamedIndividual IRI="#42382"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <NamedIndividual IRI="#42888"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <NamedIndividual IRI="#42449"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <NamedIndividual IRI="#42360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <NamedIndividual IRI="#76ers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <NamedIndividual IRI="#42848"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <NamedIndividual IRI="#42235"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <NamedIndividual IRI="#Rockets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <NamedIndividual IRI="#42189"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <NamedIndividual IRI="#42508"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <NamedIndividual IRI="#Wizards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <NamedIndividual IRI="#42159"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <NamedIndividual IRI="#42262"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <NamedIndividual IRI="#Knicks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <NamedIndividual IRI="#42684"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <NamedIndividual IRI="#Raptors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <NamedIndividual IRI="#42099"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <NamedIndividual IRI="#42733"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <NamedIndividual IRI="#42650"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <NamedIndividual IRI="#42867"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <NamedIndividual IRI="#42219"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <NamedIndividual IRI="#42087"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <NamedIndividual IRI="#42522"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <NamedIndividual IRI="#Bucks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <NamedIndividual IRI="#42119"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <NamedIndividual IRI="#42536"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <NamedIndividual IRI="#42413"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <NamedIndividual IRI="#Bulls"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <NamedIndividual IRI="#42715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <NamedIndividual IRI="#42563"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <NamedIndividual IRI="#Warriors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#35da0b31933f4d4f7422a1ebdabb6250"/>
+        <NamedIndividual IRI="#42290"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#35da0b31933f4d4f7422a1ebdabb6250"/>
+        <NamedIndividual IRI="#Clippers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <NamedIndividual IRI="#42424"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <NamedIndividual IRI="#42582"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#37d4759487e2445ab4ae678a81ad3167"/>
+        <NamedIndividual IRI="#42618"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#37d4759487e2445ab4ae678a81ad3167"/>
+        <NamedIndividual IRI="#TrailBlazers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42070"/>
+        <NamedIndividual IRI="#Celtics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42070"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42087"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42087"/>
+        <NamedIndividual IRI="#Bucks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42099"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42099"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42119"/>
+        <NamedIndividual IRI="#Bulls"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42119"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42127"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42127"/>
+        <NamedIndividual IRI="#Nets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42146"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42146"/>
+        <NamedIndividual IRI="#Pelicans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42159"/>
+        <NamedIndividual IRI="#Knicks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42159"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42174"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42174"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42189"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42189"/>
+        <NamedIndividual IRI="#Wizards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42205"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42205"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42219"/>
+        <NamedIndividual IRI="#Bucks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42219"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42235"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42235"/>
+        <NamedIndividual IRI="#Rockets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42251"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42251"/>
+        <NamedIndividual IRI="#Mavericks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42262"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42262"/>
+        <NamedIndividual IRI="#Knicks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42277"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42277"/>
+        <NamedIndividual IRI="#Hornets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42290"/>
+        <NamedIndividual IRI="#Clippers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42290"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42313"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42313"/>
+        <NamedIndividual IRI="#Pistons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42324"/>
+        <NamedIndividual IRI="#Nets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42324"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42341"/>
+        <NamedIndividual IRI="#Hornets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42341"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42360"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42360"/>
+        <NamedIndividual IRI="#76ers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42367"/>
+        <NamedIndividual IRI="#Heat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42367"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42382"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42382"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42398"/>
+        <NamedIndividual IRI="#Grizzlies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42398"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42413"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42413"/>
+        <NamedIndividual IRI="#Bulls"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42424"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42424"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42439"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42439"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42449"/>
+        <NamedIndividual IRI="#76ers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42449"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42466"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42466"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42484"/>
+        <NamedIndividual IRI="#Lakers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42484"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42499"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42499"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42508"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42508"/>
+        <NamedIndividual IRI="#Wizards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42522"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42522"/>
+        <NamedIndividual IRI="#Bucks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42536"/>
+        <NamedIndividual IRI="#Bulls"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42536"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42563"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42563"/>
+        <NamedIndividual IRI="#Warriors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42582"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42582"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42603"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42603"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42618"/>
+        <NamedIndividual IRI="#TrailBlazers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42618"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42628"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42628"/>
+        <NamedIndividual IRI="#Celtics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42650"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42650"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42662"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42662"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42684"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42684"/>
+        <NamedIndividual IRI="#Raptors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42687"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42687"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42715"/>
+        <NamedIndividual IRI="#Warriors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42715"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42733"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42733"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42743"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42743"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42766"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42766"/>
+        <NamedIndividual IRI="#Spurs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42784"/>
+        <NamedIndividual IRI="#Pacers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42784"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42805"/>
+        <NamedIndividual IRI="#Pistons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42805"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42818"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42818"/>
+        <NamedIndividual IRI="#Pistons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42825"/>
+        <NamedIndividual IRI="#Heat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42825"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42848"/>
+        <NamedIndividual IRI="#Rockets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42848"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42867"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42867"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42876"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42876"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42888"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42888"/>
+        <NamedIndividual IRI="#Hawks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42903"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42903"/>
+        <NamedIndividual IRI="#Celtics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <NamedIndividual IRI="#42917"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <NamedIndividual IRI="#42917"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <NamedIndividual IRI="#42341"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <NamedIndividual IRI="#42277"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <NamedIndividual IRI="#Hornets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+        <NamedIndividual IRI="#42367"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+        <NamedIndividual IRI="#42825"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#7d486371bb65b0633535ceba4189d8ed"/>
+        <NamedIndividual IRI="#Heat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <NamedIndividual IRI="#42743"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <NamedIndividual IRI="#42917"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <NamedIndividual IRI="#Thunder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <NamedIndividual IRI="#42805"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <NamedIndividual IRI="#42313"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <NamedIndividual IRI="#42818"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <NamedIndividual IRI="#Pistons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <NamedIndividual IRI="#42146"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <NamedIndividual IRI="#Pelicans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#75b54e640455f0c7fe1c6bee3d075154"/>
+        <NamedIndividual IRI="#42398"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#75b54e640455f0c7fe1c6bee3d075154"/>
+        <NamedIndividual IRI="#Grizzlies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedAs"/>
+        <NamedIndividual IRI="#76ers"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42087"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42127"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42146"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42189"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42235"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42251"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42262"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42277"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42313"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42382"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42413"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42439"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42508"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42522"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42563"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42582"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42603"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42628"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42650"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42662"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42684"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42687"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42766"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42818"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42867"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42888"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42903"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42917"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42070"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42099"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42119"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42159"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42174"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42205"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42219"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42290"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42324"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42341"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42367"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42398"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42424"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42449"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42466"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42484"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42499"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42536"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42618"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42733"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42743"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42784"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42805"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42825"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42848"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#42876"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#8084d5139d499b93217a79a4c8c507e5"/>
+        <NamedIndividual IRI="#42484"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#8084d5139d499b93217a79a4c8c507e5"/>
+        <NamedIndividual IRI="#Lakers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <NamedIndividual IRI="#42876"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <NamedIndividual IRI="#42662"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <NamedIndividual IRI="#42499"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <NamedIndividual IRI="#42603"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <NamedIndividual IRI="#42766"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <NamedIndividual IRI="#Spurs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <NamedIndividual IRI="#42324"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <NamedIndividual IRI="#42127"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeam"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <NamedIndividual IRI="#Nets"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Bucks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Milwaukee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Bulls"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chicago</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Cavaliers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cleveland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Celtics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Boston</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Clippers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Los Angeles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Grizzlies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Memphis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Hawks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Atlanta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Heat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Miami</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Hornets"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Charlotte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Jazz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Utah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Kings"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sacramento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Knicks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">New York</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Lakers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Los Angeles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Magic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Orlando</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Mavericks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dallas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Nets"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Brooklyn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Pacers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Indiana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Pelicans"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">New Orleans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Pistons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Detroit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Raptors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toronto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Rockets"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Houston</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Spurs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">San Antonio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Thunder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oklahoma City</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Timberwolves"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Minnesota</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#TrailBlazers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Portland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Warriors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Golden State</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#Wizards"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Washington</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">102</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#ab6ea2ec0fd939035f6824982073df00"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">113</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#def0f536b9073d052781ddc16a3851b5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">113</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#e14263ad26bb64e417768395e1ae184a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">106</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">104</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">131</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">98</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#02700e454d679f31f27c6f0768986dd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">116</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#05981b50de166529878c2baa99d5dfd7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">113</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">115</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#683c1f43bd8e5001b2e4da2560366559"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#7db228551936f49a61c6b965886ad840"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">114</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">116</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#7011baeb3f365963a89226e18e422ab8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#76ers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Philadelphia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">102</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">104</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">105</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">107</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">108</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">109</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">115</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">116</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">118</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">119</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">124</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">127</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">140</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">91</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">93</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#9a284efda4d46636bd9d5298dfea1335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">102</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Assists"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsComitted"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Points"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">107</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rebounds"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Turnovers"/>
+        <NamedIndividual IRI="#97536ed4b3717864df942e4fdfe7f353"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTeam"/>
+        <ObjectProperty IRI="#playedAs"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLoserOf"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTeam"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWinnerOf"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#playedAs"/>
+        <Class IRI="#Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAwayTeam"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHomeTeam"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAwayTeamOf"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHomeTeamOf"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLoserOf"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTeam"/>
+        <Class IRI="#Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWinnerOf"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#playedAs"/>
+        <Class IRI="#GamePlayer"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Assists"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FGPercentage"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FoulsComitted"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location"/>
+        <Class IRI="#Team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Points"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PointsGroup"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rebounds"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TeamID"/>
+        <Class IRI="#Team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Turnovers"/>
+        <Class IRI="#GamePlayer"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Assists"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FGPercentage"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FoulsComitted"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FoulsDrawn"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Points"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PointsGroup"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rebounds"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TeamID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Turnovers"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Team"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Team"/>
+                <Variable IRI="urn:swrl#b"/>
+            </ClassAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#b"/>
+            </DifferentIndividualsAtom>
+            <ClassAtom>
+                <Class IRI="#Game"/>
+                <Variable IRI="urn:swrl#g"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isHomeTeamOf"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAwayTeamOf"/>
+                <Variable IRI="urn:swrl#b"/>
+                <Variable IRI="urn:swrl#g"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#opponentOf"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#b"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FGPercentage"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fgp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fgp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="urn:swrl#fgp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FGPercentage"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fgp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fgp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="urn:swrl#fgp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">76</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FGPercentage"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fgp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fgp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FoulsComitted"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fc"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fc"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="urn:swrl#fc"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FoulsComitted"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fc"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fc"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="urn:swrl#fc"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#FoulsComitted"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#fc"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#fc"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#Points"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
+                <Variable IRI="urn:swrl#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#Points"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
+                <Variable IRI="urn:swrl#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">90</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GamePlayer"/>
+                <Variable IRI="urn:swrl#gp"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#Points"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Variable IRI="urn:swrl#p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="urn:swrl#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">90</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#PointsGroup"/>
+                <Variable IRI="urn:swrl#gp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
