@@ -21,38 +21,34 @@ public class UserInterface {
 			System.out.println("Enter an option for NBA Game Predictor: \nPredict a game (p), List Valid NBA Teams (l), or Quit (q): ");
 			String s = in.nextLine();
 			if (s.trim().toLowerCase().equals("p") || s.trim().toLowerCase().equals("predict a game")) {
-				System.out.println("Enter the home and away teams:");
+				System.out.println("Enter the two teams:");
 				while (true) {
-					System.out.println("Home team: ");
+					System.out.println("Team 1: ");
 					homeTeam = in.nextLine().toUpperCase();
 					if (NBATeams.isValidTeam(homeTeam)) {
 						break;
 					}
 					else {
-						System.out.println("Invalid home team entered");
+						System.out.println("Invalid team entered");
 					}
 				}
 				while (true) {
-					System.out.println("Away team: ");
+					System.out.println("Team 2: ");
 					awayTeam = in.nextLine().toUpperCase();
 					if (homeTeam.equals(awayTeam)) {
-						System.out.println("Away team cannot be the same as the home team");
+						System.out.println("Team 2 cannot be the same as Team 1");
 					}
 					else if (NBATeams.isValidTeam(awayTeam)) {
 						break;
 					}
 					else {
-						System.out.println("Invalid away team entered");
+						System.out.println("Invalid team entered");
 					}
 				}
-				
-				///////////////////////////////
-				// PREDICTOR LOGIC GOES HERE //
-				///////////////////////////////
 				try {
 					Predictor predictor = new Predictor();
+					System.out.println(predictor.PredictWinner(homeTeam, awayTeam));
 				} catch (OWLOntologyCreationException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

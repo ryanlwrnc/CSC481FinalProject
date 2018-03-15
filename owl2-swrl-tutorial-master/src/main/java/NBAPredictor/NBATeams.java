@@ -8,7 +8,8 @@ public class NBATeams {
 	public static Map<String, Boolean> getTeams() {
 		Map<String, Boolean> teams = new LinkedHashMap<>();
 		teams.put("ATL", true);
-		teams.put("BKN", true);
+		// BKN has no data
+		//teams.put("BKN", true);
 		teams.put("BOS", true);
 		teams.put("CHA", true);
 		teams.put("CHI", true);
@@ -27,7 +28,8 @@ public class NBATeams {
 		teams.put("MIN", true);
 		teams.put("NOP", true);
 		teams.put("NYK", true);
-		teams.put("OKC", true);
+		// OKC has no data
+		//teams.put("OKC", true);
 		teams.put("ORL", true);
 		teams.put("PHI", true);
 		teams.put("PHX", true);
