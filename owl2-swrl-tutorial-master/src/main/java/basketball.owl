@@ -1,0 +1,2066 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#hasAwayTeam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#hasAwayTeam">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isAwayTeamOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#hasHomeTeam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#hasHomeTeam">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isHomeTeamOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isAwayTeamOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isAwayTeamOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isHomeTeamOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isHomeTeamOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isLoserOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isLoserOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isTeam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isTeam">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#playedAs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isWinnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isWinnerOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#opponentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#opponentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#playedAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#playedAs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Assists -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Assists">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FGPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FGPercentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FoulsComitted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FoulsComitted">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FoulsDrawn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#FoulsDrawn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Points -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Points">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#PointsGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#PointsGroup">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rebounds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rebounds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TeamID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TeamID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Turnovers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Turnovers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Stats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Stats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#05981b50de166529878c2baa99d5dfd7"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milwaukee</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#191937b8c04d1a049829dc9c9e609bd8"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicago</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#79a81f1f533a615d5afc98e08b23a7ec"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleveland</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#aadcf8d1f390a8eebfd8ad43e363b899"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boston</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Clippers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Clippers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#35da0b31933f4d4f7422a1ebdabb6250"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Angeles</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Grizzlies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Grizzlies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#75b54e640455f0c7fe1c6bee3d075154"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memphis</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#d1eb1726196ff9f95f2384832b3cae29"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlanta</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Heat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Heat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7d486371bb65b0633535ceba4189d8ed"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miami</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hornets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hornets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#683c1f43bd8e5001b2e4da2560366559"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlotte</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Jazz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Jazz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#9a284efda4d46636bd9d5298dfea1335"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utah</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Kings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Kings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3524bbf4808b963b0d93878d22a0f10f"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacramento</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Knicks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Knicks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#faf99fe1c4c3d7cf5f48a5b15746effd"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Lakers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Lakers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#8084d5139d499b93217a79a4c8c507e5"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Angeles</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#02700e454d679f31f27c6f0768986dd1"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orlando</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Mavericks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Mavericks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#b023109ebddfcf4ca2fb128d6cb6f88a"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dallas</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Nets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Nets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#97536ed4b3717864df942e4fdfe7f353"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brooklyn</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#ab6ea2ec0fd939035f6824982073df00"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indiana</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pelicans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pelicans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7426a01ccbdc5983f3deafcc5f307262"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Orleans</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7011baeb3f365963a89226e18e422ab8"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detroit</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Raptors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Raptors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#0d6fcfe8fab55d42111a914174b3fef7"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toronto</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rockets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rockets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#e14263ad26bb64e417768395e1ae184a"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Houston</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Spurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Spurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#953e646a31fdfe8a6a1f8efad41bbe7a"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Antonio</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Thunder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Thunder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7db228551936f49a61c6b965886ad840"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oklahoma City</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Timberwolves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Timberwolves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#859ac8b6048c7a819cfaf55cc0100ab4"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minnesota</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TrailBlazers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TrailBlazers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#37d4759487e2445ab4ae678a81ad3167"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portland</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Warriors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Warriors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3cba3bd129a0c1a6f7288952520fb7ab"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden State</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Wizards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Wizards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#f135d4a15fb5acaad384bd86d20ba155"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#aadcf8d1f390a8eebfd8ad43e363b899 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#aadcf8d1f390a8eebfd8ad43e363b899">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42070"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42628"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42903"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#ab6ea2ec0fd939035f6824982073df00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#ab6ea2ec0fd939035f6824982073df00">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42174"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42784"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42439"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42687"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#b023109ebddfcf4ca2fb128d6cb6f88a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#b023109ebddfcf4ca2fb128d6cb6f88a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42251"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Mavericks"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#d1eb1726196ff9f95f2384832b3cae29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#d1eb1726196ff9f95f2384832b3cae29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42205"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42466"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42382"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42888"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#def0f536b9073d052781ddc16a3851b5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#def0f536b9073d052781ddc16a3851b5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42449"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42360"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#76ers"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#e14263ad26bb64e417768395e1ae184a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#e14263ad26bb64e417768395e1ae184a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42848"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42235"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rockets"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#f135d4a15fb5acaad384bd86d20ba155 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#f135d4a15fb5acaad384bd86d20ba155">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42189"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42508"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Wizards"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#faf99fe1c4c3d7cf5f48a5b15746effd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#faf99fe1c4c3d7cf5f48a5b15746effd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42159"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42262"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Knicks"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#0d6fcfe8fab55d42111a914174b3fef7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#0d6fcfe8fab55d42111a914174b3fef7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42684"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Raptors"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#02700e454d679f31f27c6f0768986dd1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#02700e454d679f31f27c6f0768986dd1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42099"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42733"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42650"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42867"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#05981b50de166529878c2baa99d5dfd7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#05981b50de166529878c2baa99d5dfd7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42219"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42087"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42522"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#191937b8c04d1a049829dc9c9e609bd8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#191937b8c04d1a049829dc9c9e609bd8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42119"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42536"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42413"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3cba3bd129a0c1a6f7288952520fb7ab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3cba3bd129a0c1a6f7288952520fb7ab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42715"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42563"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Warriors"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#35da0b31933f4d4f7422a1ebdabb6250 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#35da0b31933f4d4f7422a1ebdabb6250">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42290"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Clippers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3524bbf4808b963b0d93878d22a0f10f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#3524bbf4808b963b0d93878d22a0f10f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42424"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42582"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Kings"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#37d4759487e2445ab4ae678a81ad3167 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#37d4759487e2445ab4ae678a81ad3167">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42618"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TrailBlazers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42070 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42070">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42087 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42087">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42099 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42099">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Nets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42146 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42146">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pelicans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42159 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42159">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Knicks"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42174">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42189 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42189">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Wizards"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42219 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42219">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42235 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42235">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rockets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42251 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42251">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Mavericks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42262 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42262">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Knicks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42277 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42277">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hornets"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42290 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42290">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Clippers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42313 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42313">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42324 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42324">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Nets"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42341 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42341">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hornets"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42360 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42360">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#76ers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42367 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42367">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Heat"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42382 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42382">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42398 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42398">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Grizzlies"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42413 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42413">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42424 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42424">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Kings"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42439 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42439">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42449 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42449">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#76ers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42466 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42466">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42484 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42484">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Lakers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42499 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42499">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Jazz"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42508 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42508">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Wizards"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42522 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42522">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bucks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42536 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42536">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Bulls"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42563 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42563">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Warriors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42582 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42582">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Kings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42603 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42603">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Jazz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42618 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42618">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#TrailBlazers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42628 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42628">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42650 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42650">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42662 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42662">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Timberwolves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42684">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Raptors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42687 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42687">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42715 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42715">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Warriors"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42733 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42733">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42743 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42743">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Thunder"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42766 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42766">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Spurs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42784 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42784">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pacers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42805 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42805">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42818 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42818">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42825 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42825">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Heat"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42848 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42848">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Rockets"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42867 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42867">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Magic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42876 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42876">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Timberwolves"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42888 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42888">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hawks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42903 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42903">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Celtics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42917 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42917">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+        <hasAwayTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <hasHomeTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Thunder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#683c1f43bd8e5001b2e4da2560366559 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#683c1f43bd8e5001b2e4da2560366559">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42341"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42277"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Hornets"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7d486371bb65b0633535ceba4189d8ed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7d486371bb65b0633535ceba4189d8ed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42367"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42825"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Heat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7db228551936f49a61c6b965886ad840 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7db228551936f49a61c6b965886ad840">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42743"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42917"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Thunder"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7011baeb3f365963a89226e18e422ab8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7011baeb3f365963a89226e18e422ab8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42805"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42313"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42818"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pistons"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7426a01ccbdc5983f3deafcc5f307262 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#7426a01ccbdc5983f3deafcc5f307262">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42146"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Pelicans"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#75b54e640455f0c7fe1c6bee3d075154 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#75b54e640455f0c7fe1c6bee3d075154">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42398"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Grizzlies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#76ers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#76ers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+        <playedAs rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#def0f536b9073d052781ddc16a3851b5"/>
+        <Location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philadelphia</Location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#79a81f1f533a615d5afc98e08b23a7ec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#79a81f1f533a615d5afc98e08b23a7ec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42087"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42127"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42146"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42189"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42235"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42251"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42262"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42277"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42313"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42360"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42382"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42413"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42439"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42508"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42522"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42563"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42582"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42603"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42628"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42650"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42662"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42684"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42687"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42766"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42818"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42867"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42888"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42903"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42917"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42070"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42099"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42119"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42159"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42174"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42205"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42219"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42290"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42324"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42341"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42367"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42398"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42424"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42449"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42466"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42484"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42499"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42536"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42618"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42715"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42733"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42743"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42784"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42805"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42825"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42848"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42876"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Cavaliers"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</Assists>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</FoulsComitted>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</FoulsDrawn>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</Points>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</Rebounds>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Turnovers>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#8084d5139d499b93217a79a4c8c507e5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#8084d5139d499b93217a79a4c8c507e5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42484"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Lakers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#859ac8b6048c7a819cfaf55cc0100ab4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#859ac8b6048c7a819cfaf55cc0100ab4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42876"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42662"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Timberwolves"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#9a284efda4d46636bd9d5298dfea1335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#9a284efda4d46636bd9d5298dfea1335">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42499"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42603"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Jazz"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#953e646a31fdfe8a6a1f8efad41bbe7a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#953e646a31fdfe8a6a1f8efad41bbe7a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42766"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Spurs"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#97536ed4b3717864df942e4fdfe7f353 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#97536ed4b3717864df942e4fdfe7f353">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+        <isAwayTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42324"/>
+        <isHomeTeamOf rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#42127"/>
+        <isTeam rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Nets"/>
+        <Assists rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Assists>
+        <FoulsComitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</FoulsComitted>
+        <FoulsDrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</FoulsDrawn>
+        <Points rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</Points>
+        <Rebounds rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</Rebounds>
+        <Turnovers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</Turnovers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#b">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#g">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#gp">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Team"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#b"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Game"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#g"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isHomeTeamOf"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#g"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#isAwayTeamOf"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#b"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#g"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#opponentOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Points"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl#p"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#PointsGroup"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Points"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl#p"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl#p"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#PointsGroup"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#GamePlayer"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#Points"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl#p"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rey/ontologies/2018/1/untitled-ontology-5#PointsGroup"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
